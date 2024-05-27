@@ -2,7 +2,7 @@
 <img src="./src//lib/images/dash.jpg">
 </p>
 
-## Creating a React App with Create React App
+## How to use this repository:
 
 This README file provides instructions on how to set up and run a React application using Create React App.
 
@@ -25,7 +25,7 @@ git clone https://github.com/tvm-dev/Dashboard-Tailwind-ReactJS.git
 cd Dashboard-Tailwind-ReactJS
 ```
 
-3. **Start the development server:**
+3. **Install all packages:**
 
 ```bash
 npm i
