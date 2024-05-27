@@ -91,9 +91,9 @@ export default function Header() {
 
                 {/* Menu drowdown with photo, below: */}
 
-                <Menu as="div" className="relative inline text-left">
+                <Menu as="div" className="relative inline-block text-left">
                     <div>
-                        <MenuButton className="inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover::bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                        <MenuButton className="">
                             <span className="sr-only">Open user menu</span>
 
                             <div
@@ -133,7 +133,7 @@ export default function Header() {
                                 {({ active }) => (
                                     <div
                                         className={classNames(
-                                            active && 'bg-gray-200',
+                                            active && 'bg-gray-100',
                                             'text-gray-700 focus:bg-gray-200  cursor-pointer rounded-sm px-4 py-2'
                                         )}
                                         onClick={() => navigate('/settings')}
@@ -147,7 +147,7 @@ export default function Header() {
                                 {({ active }) => (
                                     <div
                                         className={classNames(
-                                            active && 'bg-gray-200',
+                                            active && 'bg-gray-100',
                                             'text-gray-700 focus:bg-gray-200  cursor-pointer rounded-sm px-4 py-2'
                                         )}
                                         onClick={() => navigate('/logout')}
