@@ -29,6 +29,7 @@ cd Dashboard-Tailwind-ReactJS
 
 ```bash
 npm i
+```
 
 4. **Start the development server:**
 
